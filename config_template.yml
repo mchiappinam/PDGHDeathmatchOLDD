@@ -1,0 +1,29 @@
+# # #   Copyright PDGH Minecraft Servers & HostLoad © 2013-XXXX   # # #
+# # #                Todos os direitos reservados!                # # #
+# # #   Uso apenas para a PDGH.com.br e https://HostLoad.com.br   # # #
+# # # Caso você tenha acesso a esse sistema, você é privilegiado! # # #
+# # #                   Use {deathmatch} no LegendChat.                   # # #
+mundoPrincipal: world
+mundoDoDM: world_eventos
+premio: 10000.0
+tags: #Use {dm} no LegendChat. OBS: A TAG SPEC não é uma TAG de chat
+  vencedor: '&c[DM]'
+  espectador: '&c[SPEC]'
+sistema:
+  tempo:
+    preparar:
+      avisos: 20
+      tempoEntre: 30
+    iniciando:
+      avisos: 10
+      tempoEntre: 30
+    finalizando: 30
+  itens:
+    ativado: false
+    limparInv: false
+    entrarSomenteComInvVazio: false
+    inventario: []
+vencedor: 'mchiappinam'
+arenas: []
+#caso tenha o plugin PDGHEventos e use o mesmo mundo, deixe 'true'.
+APIPDGHEventos: false
